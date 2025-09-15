@@ -15,7 +15,7 @@ function startPress() {
     video.loop = true;
     audio.loop = true;
 
-    audio.volume = 0.5; 
+    audio.volume = 0.2; 
 
     audio.play();
     video.play();
@@ -28,6 +28,7 @@ function endPress() {
     video.loop = false;
     audio.loop = false;
 }
+
 
 
 
